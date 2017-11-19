@@ -1,0 +1,9 @@
+jupyter nbconvert --to html ca_school_districts.ipynb
+
+insert:
+
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+into <head>
+
+
