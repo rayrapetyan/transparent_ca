@@ -1,7 +1,7 @@
 - gen_data.py - fetches raw data from https://transparentcalifornia.com/agencies/salaries/school-districts and generates a main data file (data.csv.gz)
 
 - to generate html file from a notebook:
->jupyter nbconvert --to html ca_school_districts.ipynb
+>jupyter nbconvert --template nbextensions --to html ca_school_districts.ipynb
 then insert:
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 into <head>
